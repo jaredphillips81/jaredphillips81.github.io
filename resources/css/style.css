@@ -1,0 +1,74 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 133px;
+    max-width: 690px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.Px-cZfLas4wuhyjd4uYegAAAAA&pid=Api&P=0&w=400&h=133);
+    font-size: 50px;
+}
+.navigators{
+    display: flex;
+    font-size: 17px;
+    display: table-row;
+    margin-left: 250px;
+}
+.aboutme-link-box{
+    border-width: 5px;
+    border-color: black;
+}
+.aboutme-link{
+    display:flex;
+    margin-left: 150px;
+    text-decoration: none;    
+}
+.projects-link-box{
+    border-width: 5px;
+    border-color: black;
+}
+.projects-link{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+    text-decoration: none;    
+}
+.main-body{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/54/fe/d5/54fed57e1e8ffd6235b6c90664282274.jpg);
+    max-width: 800px;
+}    
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 500;
+}
+.bio{
+    display:flex;
+    margin-top:45px;
+    font-size: 11px;
+}
+.photo{
+    display:flex;
+}
+.contact{
+    display:flex;
+    align-items: center;
+}
+.links{
+    display:flex;
+}
+.projects{
+    display: flex;
+    display: table-column;
+    height: 250px;
+    width: 500;
+}
+.footer{
+    
+    align-items: flex-end;
+}
+
+
