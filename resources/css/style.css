@@ -1,74 +1,115 @@
 
-.header{
-    display: flex;
-    flex-direction: row;
-    height: 133px;
-    max-width: 690px;
-    background-image: url(https://tse1.mm.bing.net/th?id=OIP.Px-cZfLas4wuhyjd4uYegAAAAA&pid=Api&P=0&w=400&h=133);
-    font-size: 50px;
-}
-.navigators{
-    display: flex;
-    font-size: 17px;
-    display: table-row;
-    margin-left: 250px;
-}
-.aboutme-link-box{
-    border-width: 5px;
-    border-color: black;
-}
-.aboutme-link{
+.nav-boxes{
     display:flex;
-    margin-left: 150px;
-    text-decoration: none;    
+
+}
+.about-link-box{
+    display:flex;
+    background-color:fuchsia;
+    border-color: black;
+    border-style:double;
+    border-radius: 16px; 
 }
 .projects-link-box{
-    border-width: 5px;
+    display:flex;
+    background-color:fuchsia;
     border-color: black;
+    border-style:double;
+    border-radius: 16px; 
 }
-.projects-link{
+a.aboutme-link{
+    text-decoration: none;
+    color: honeydew;
+    justify-content: center;
+}
+a.projects-link{
+    text-decoration: none;
+    color:honeydew;
+    justify-content: center;
+}
+.header{
+    background-image: url(https://img.huffingtonpost.com/asset/57e282ed1b00002e00ef11a3.jpeg?ops=scalefit_970_noupscale);
+    background-position: center;
+}
+.name{
     display: flex;
-    margin-left: 150px;
-    margin-top: 30px;
-    text-decoration: none;    
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif
 }
 .main-body{
-    display: flex; 
+    display:flex;
     flex-direction: column;
-    align-items: center;
-    background-image: url(https://i.pinimg.com/originals/54/fe/d5/54fed57e1e8ffd6235b6c90664282274.jpg);
-    max-width: 800px;
-}    
-.aboutme{
+    background-image: url(http://arsenal-s3.gomedia.us/wp-content/uploads/gma-texture-collection-05-photocopy-pack-01-hero-shot-rev-01.jpg);
+}
+.aboutme-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.photome{
+    border-radius: 10px;
+    opacity: 75%;
+}
+.projects-header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.projects-main{
     display: flex;
-    flex-direction: row;
-    height: 250px;
-    width: 500;
+    flex-direction:row;
 }
-.bio{
-    display:flex;
-    margin-top:45px;
-    font-size: 11px;
+
+.exhibita{
+    border-style:solid;
+    border-color: fuchsia;
+    border-radius: 9px;
+    border-width: 3px;
+    text-decoration: none;
+    background-image: url("/izoo.bmp");
+    background-size: contain;
 }
-.photo{
-    display:flex;
+.exhibitb{
+    border-style:solid;
+    border-color: fuchsia;
+    border-radius: 9px;
+    border-width: 3px;
+    background-image: url("/mvcdemo.bmp");
+    background-size: contain;
 }
-.contact{
-    display:flex;
-    align-items: center;
+.exhibitc{
+    border-style:solid;
+    border-color: fuchsia;
+    border-radius: 9px;
+    border-width: 3px;
+    background-image: url("/thisthing.bmp");
+    background-size: contain;
 }
-.links{
-    display:flex;
+.zoo-link{
+    text-decoration: none;
+    color: whitesmoke;
 }
-.projects{
-    display: flex;
-    display: table-column;
-    height: 250px;
-    width: 500;
+.markdown-link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.this-thing{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.linkedin{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.email{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.github{
+    text-decoration: none;
+    color: whitesmoke;
 }
 .footer{
-    
-    align-items: flex-end;
+    background-image: url(https://img.huffingtonpost.com/asset/57e282ed1b00002e00ef11a3.jpeg?ops=scalefit_970_noupscale);
+    background-position:top;
 }
-
-
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+}

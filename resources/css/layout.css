@@ -1,9 +1,109 @@
 .container{
     display: flex;
+    flex-direction: column;
+    width: 850px;
+
+}
+.header{
+    display: flex;
+    width: 850px;
+    height: 100px;
+}
+.navigators{
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 2rem auto;
-    padding:11px;
-    height:20rem;
-    max-width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-boxes{
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-between;
+    width: 150px;
+}
+a.aboutme-link{
+    display: flex;
+    align-content: flex-start;
+    white-space: nowrap;
+}
+a.projects-link{
+    display: flex;
+    align-content: flex-end;
+    white-space: nowrap;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 850px;
+}
+.aboutme-header{
+    display: flex;
+    justify-content: center;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    margin-top: 50px;
+}
+.bio{
+    height: auto;
+}
+.photo{
+    height: auto;
+}
+.photome{
+    display: flex;
+    height: auto;
+    width: 110px;
+    margin-left: 185px;
+    }
+.skills{
+    display:flex;
+    height: 50px;
+    padding-top: 25px;
+}
+.projects-main{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.exhibita{
+    display: flex;
+    height: 210px;
+    width: 230px;
+}
+.exhibitb{
+    display: flex;
+    height: 210px;
+    width: 230px;
+}
+.exhibitc{
+    display: flex;
+    height: 210px;
+    width: 230px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 450px;
+}
+.footer{
+    display: flex;
+    height: 125px;
+    width: 850px;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+.copyright{
+    margin-right: 50px;
 }
